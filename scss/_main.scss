@@ -6,13 +6,9 @@ html {
     body {
         width: 100%;
         height: 100%;
-        position: relative;
-        max-width: 1920px;
-        max-height: 1000px;
-        margin: auto;
         overflow: hidden;
 
-        main {
+        .container {
             width: 1000px;
             height: 100%;
             margin: 0 auto;
@@ -20,7 +16,7 @@ html {
 
             .txtItem {
                 position: absolute;
-                top: 177px;
+                top: 222px;
                 left: 17px;
 
                 .title {
@@ -32,11 +28,10 @@ html {
                     color: #001b47;
                     font-size: 24px;
                     text-align: end;
-                    margin-top: 40px;
+                    margin-top: 35px;
                     animation: lag 1.5s linear 0s infinite;
                 }
             }
-
 
             // logo
             .logo {
@@ -45,30 +40,25 @@ html {
                 animation: top 1s linear 0.2s 1;
                 animation-fill-mode: backwards;
                 position: absolute;
-                top: 80px;
+                top: 123px;
                 right: 0px;
-
-                >img {
-                    object-fit: contain;
-                }
             }
 
             .football {
                 width: 283px;
                 height: 279px;
                 position: absolute;
-                bottom: 90px;
+                top: 608px;
                 right: -65px;
                 animation: float1 1.9s linear 0s infinite;
                 
-
             }
 
             .basketball {
                 width: 178px;
                 height: 179px;
                 position: absolute;
-                bottom: 343px;
+                top: 432px;
                 left: -115px;
                 animation: float1 2.1s linear 0s infinite;
             }
@@ -77,7 +67,7 @@ html {
                 width: 136px;
                 height: 140px;
                 position: absolute;
-                top: -10px;
+                top: 30px;
                 right: -35px;
                 animation: lag 0.4s linear 0s, gear 3s linear 0s infinite;
                 
@@ -94,6 +84,7 @@ html {
             z-index: -99;
         }
     }
+
 }
 
 

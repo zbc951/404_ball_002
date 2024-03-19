@@ -112,46 +112,25 @@ input[type=date]::-webkit-calendar-picker-indicator {
   src: url("../font/MFinance HK Bold(盈富體).ttf") format("truetype");
 }
 body .bg {
-  background: url("../img/bg.png") no-repeat center;
-  background-size: cover;
+  background: url("../img/bg.png") no-repeat top center;
 }
 
-main .txtItem .title {
+.container .txtItem .title {
   background: url("../img/title.png") no-repeat center;
   background-size: contain;
 }
 
-main .light1 {
-  background: url("../img/light.png") no-repeat center;
-  background-size: contain;
-}
-
-main .light2 {
-  background: url("../img/light2.png") no-repeat center;
-  background-size: contain;
-}
-
-main .light3 {
-  background: url("../img/light3.png") no-repeat center;
-  background-size: contain;
-}
-
-main .light4 {
-  background: url("../img/light4.png") no-repeat center;
-  background-size: contain;
-}
-
-main .football {
+.container .football {
   background: url("../img/footBall.png") no-repeat center;
   background-size: contain;
 }
 
-main .basketball {
+.container .basketball {
   background: url("../img/basketball.png") no-repeat center;
   background-size: contain;
 }
 
-main .gear {
+.container .gear {
   background: url("../img/gear.png") no-repeat center;
   background-size: contain;
 }
@@ -164,36 +143,32 @@ html {
 html body {
   width: 100%;
   height: 100%;
-  position: relative;
-  max-width: 1920px;
-  max-height: 1000px;
-  margin: auto;
   overflow: hidden;
 }
-html body main {
+html body .container {
   width: 1000px;
   height: 100%;
   margin: 0 auto;
   position: relative;
 }
-html body main .txtItem {
+html body .container .txtItem {
   position: absolute;
-  top: 177px;
+  top: 222px;
   left: 17px;
 }
-html body main .txtItem .title {
+html body .container .txtItem .title {
   width: 392px;
   height: 128px;
 }
-html body main .txtItem p {
+html body .container .txtItem p {
   color: #001b47;
   font-size: 24px;
   text-align: end;
-  margin-top: 40px;
+  margin-top: 35px;
   -webkit-animation: lag 1.5s linear 0s infinite;
           animation: lag 1.5s linear 0s infinite;
 }
-html body main .logo {
+html body .container .logo {
   width: 500px;
   height: 383px;
   -webkit-animation: top 1s linear 0.2s 1;
@@ -201,80 +176,32 @@ html body main .logo {
   -webkit-animation-fill-mode: backwards;
           animation-fill-mode: backwards;
   position: absolute;
-  top: 80px;
+  top: 123px;
   right: 0px;
 }
-html body main .logo > img {
-  -o-object-fit: contain;
-     object-fit: contain;
-}
-html body main .light1 {
-  width: 333px;
-  height: 268px;
-  position: absolute;
-  bottom: 163px;
-  left: -464px;
-  -webkit-animation: lag 1.2s linear 1.1s infinite;
-          animation: lag 1.2s linear 1.1s infinite;
-  -webkit-animation-fill-mode: backwards;
-          animation-fill-mode: backwards;
-}
-html body main .light2 {
-  width: 202px;
-  height: 163px;
-  position: absolute;
-  bottom: 49px;
-  left: 143px;
-  -webkit-animation: lag 1.1s linear 1.2s infinite;
-          animation: lag 1.1s linear 1.2s infinite;
-  -webkit-animation-fill-mode: backwards;
-          animation-fill-mode: backwards;
-}
-html body main .light3 {
-  width: 339px;
-  height: 262px;
-  position: absolute;
-  bottom: -15px;
-  right: 100px;
-  -webkit-animation: lag 1.2s linear 1s infinite;
-          animation: lag 1.2s linear 1s infinite;
-  -webkit-animation-fill-mode: backwards;
-          animation-fill-mode: backwards;
-}
-html body main .light4 {
-  width: 225px;
-  height: 173px;
-  position: absolute;
-  bottom: 243px;
-  right: -460px;
-  -webkit-animation: lag 1s linear 0s infinite;
-          animation: lag 1s linear 0s infinite;
-  -webkit-animation-fill-mode: backwards;
-          animation-fill-mode: backwards;
-}
-html body main .football {
+html body .container .football {
   width: 283px;
   height: 279px;
   position: absolute;
-  bottom: 90px;
+  top: 608px;
   right: -65px;
   -webkit-animation: float1 1.9s linear 0s infinite;
           animation: float1 1.9s linear 0s infinite;
 }
-html body main .basketball {
+html body .container .basketball {
   width: 178px;
   height: 179px;
   position: absolute;
-  bottom: 343px;
+  top: 432px;
   left: -115px;
   -webkit-animation: float1 2.1s linear 0s infinite;
           animation: float1 2.1s linear 0s infinite;
 }
-html body main .gear {
+html body .container .gear {
   width: 136px;
   height: 140px;
   position: absolute;
-  top: -10px;
+  top: 30px;
   right: -35px;
   -webkit-animation: lag 0.4s linear 0s, gear 3s linear 0s infinite;
           animation: lag 0.4s linear 0s, gear 3s linear 0s infinite;
